@@ -1,0 +1,136 @@
+body {
+	background-color: #00001a;
+}
+
+#titles h1{
+	text-align: center;
+	font-family: sans-serif;
+	color: whitesmoke;
+	shape-outside: content-box;
+}
+
+#titles h3{
+	text-align: center;
+	font-family: fantasy;
+	color: aquamarine;
+}
+
+#gButton button{
+	color: midnightblue;
+	background-color: #ff751a;
+	cursor: pointer;
+	margin-left: 650px;
+	height: 50px;
+	width: 150px;
+	font-family: monospace;
+	font-size: 15px;
+}
+
+#gButton button:hover{
+	background-color: #ffb366;
+}
+
+#gButton h4{
+	text-align: center;
+	color: #800040;
+	font-family: fantasy;
+	font-style: italic;
+}
+
+#uButton button {
+	margin-left: 650px;
+	background-color: #002e4d;
+	color: #802000;
+	font-family: serif;
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+}
+
+#uButton button:hover{
+	background-color: mediumaquamarine;
+	cursor: pointer;
+	
+}
+
+#uButton h4{
+	text-align-last: center;
+	color: #72e445;
+	font-style: italic;
+	font-size: 18px;
+}
+
+
+#uMenu textarea{
+	background-color: cadetblue;
+	font-family: sans-serif;
+	font-size: 12px;
+	height: 30px;
+	max-height: 30px;
+	width: inherit;
+	margin-left: 450px;
+	
+}
+
+#uMenu textarea:hover {
+	cursor: text;
+}
+
+#uMenu button {
+	background-color: coral;
+	color: bisque;
+	margin-top: inherit;
+	padding-bottom: 5px;
+	padding-left: 8px;
+	padding-right: 8px;
+	padding-top: 5px;
+	cursor: pointer;
+}
+
+#uMenu button:hover{
+	cursor: pointer;
+	background-color: lightcoral;
+}
+
+#sButton button{
+	background-color: #001a00;
+	color: #800000;
+	height: 50px;
+	width: 150px;
+	font-size: 15px;
+	font-family: sans-serif;
+	margin-left: 650px;
+}
+
+#sButton button:hover{
+	background-color: #003300;
+	cursor: pointer;
+}
+
+#sButton h4{
+	text-align: center;
+	color: #b35900;
+	font-style: italic;
+	font-size: 18px;
+}
+
+#sMenu textarea:hover {
+	cursor: text;
+}
+
+#sMenu textarea {
+	background-color:RGB(44, 70, 104);
+	font-family: monospace;
+	margin-left: auto;
+	align-content: center;
+}
+
+
+#sMenu button:hover {
+	background-color: aquamarine;
+	cursor: pointer;
+}
+
+#sMenu button {
+	background-color: mediumorchid;
+}
