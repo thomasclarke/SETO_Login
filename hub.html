@@ -4,9 +4,9 @@
 
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-	<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
-	<link href="hub.css" rel="stylesheet">
-	<script src="HUB.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="hub-2.css"/>
+	<script src="hub.js"></script>
 </head>
 
 <body>
@@ -15,31 +15,39 @@
 	<h1>SETO Login Center</h1>
 	<h3>Here you can create a SETO account, Log in or use SETO as a guest.</h3>
 	</div>
-	<div id = "gButton">
+    
+    
+    
+	<div id = "guest">
 	<button id = "guestButton">Use as guest</button>
 	<h4>(Your game progress will not be saved, and you will not have acces to chatrooms)</h4>
 	</div>
-	<div id = "uButton">
-	<button id = "userButton">Log in</button>
+    
+    
+	<div id = "user">
+	<button id = "uButton">Log in</button>
 	<h4>(Only use this button if you have already created an account)</h4>	
-	</div>
-	<div id = "uMenu">
-	<textarea id="uUsrnme" class="form-control status-box" rows = "2" placeholder="Username"></textarea>
-	<textarea id="uPswrd" class="form-control status-box" rows = "2" placeholder="Password"></textarea>
-	<button id = "uEntr">SUBMIT</button>
-	</div>
+
+	<form id = "uMenu">
+    <input id="uEnter" placeholder='Username'/><br>
+    <input id="pwdEnter" placeholder="Password" type="password"/><br>
+	<button id = "uSubmit">SUBMIT</button>
+        </form></div><br>
+    
 	<div id = "sButton">
 	<button id = "signUp">Sign Up</button>
+
 	<h4>(Don't have an account? Click above to Sign Up)</h4>
 	</div>
-	<div id = "sMenu">
-	<textarea placeholder="Full Name" rows="2" class="form-control status box"></textarea>
-	<textarea placeholder="Email address" class="form-control status box"></textarea>
-	<textarea class="form-control status-box" rows = "2" placeholder="Username"></textarea>
-	<textarea class="form-control status-box" rows = "2" placeholder="Password"></textarea>
-	<textarea class="form-control status-box" rows = "2" placeholder=" Repeat Password"></textarea>
+    
+	<form id = "sMenu">
+	<input id="name" placeholder="Full Name" rows="2" class="form-control status box"><br>
+	<input id="email" placeholder="Email address" class="form-control status box" type='email'><br>
+	<input id="usr" class="form-control status-box" rows = "2" placeholder="Username"><br>
+	<input id="pass" type="password" class="form-control status-box" rows = "2" placeholder="Password"><br>
+	<input type="password" id="passRep" class="form-control status-box" rows = "2" placeholder=" Repeat Password"><br>
 	<button id="sEntr">SUBMIT</button>
-	</div>
+	</form>
 </body>
 
 </html>
