@@ -1,4 +1,0 @@
-== README
-© 2 Thomases 2016
-This is the rails section for the login screen for seto. It is in testing and not all of the files are commited yet
-Please bear with...
