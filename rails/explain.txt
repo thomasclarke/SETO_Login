@@ -1,3 +1,0 @@
-######
-THIS IS MY RAILS CODE
-#####
